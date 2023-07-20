@@ -907,7 +907,31 @@ button {
 .link-custom:hover::after {
   width: 100%;
 }
-.bob a{
+.bob a {
   text-decoration: none;
   color: #fff;
+}
+
+@media screen and (max-width: 576px) {
+  #aText {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  section {
+    padding: 20px;
+  }
+  .box_image{
+    padding-top: 100px;
+  }
+  .container-two{
+    width: 100%;
+     gap: 30px;
+     display: flex;
+     flex-direction: column;
+  }
+  .about__image{
+    width: 50%;
+  }
+ 
 }
